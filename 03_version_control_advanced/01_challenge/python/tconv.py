@@ -13,3 +13,10 @@ def convert_fahrenheit_to_celsius():
     print(
         f"The Fahrenheit temperature {fahrenheit} you entered is {celsius} in Celcius."
     )
+    
+def main():
+  convert_fahrenheit_to_celsius()
+  convert_celsius_to_fahrenheit()
+ 
+
+main()
